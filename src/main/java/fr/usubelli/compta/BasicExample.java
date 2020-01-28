@@ -1,5 +1,7 @@
 package fr.usubelli.compta;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import fr.usubelli.compta.domain.TicketEvaluation;
 import fr.usubelli.compta.domain.nlp.Evaluation;
 import fr.usubelli.compta.domain.nlp.IntentEvaluation;
 import fr.usubelli.compta.domain.nlp.NameEvaluation;
@@ -25,7 +27,7 @@ public class BasicExample {
 
     public static void main(String[] args) throws IOException {
 
-        final String directory = "C:\\dev\\workspace\\compta\\src\\main\\resources\\";
+        final String directory = "D:\\workspace\\compta\\src\\main\\resources\\";
         final String filename = directory + "CFXFDZJYYS.jpg";
         final Mat image = Imgcodecs.imread(filename);
         final Mat imageReworked = new Hull().transform(image, 57, 2);
@@ -47,57 +49,9 @@ public class BasicExample {
         final Evaluation evaluation = new NlpEvaluation(sentences, Locale.FRENCH).evaluate(text);
         fileDatabaseEvaluation.save((BufferedImage) HighGui.toBufferedImage(imageReworked), evaluation);
 
+        final TicketEvaluation ticketEvaluation = new TicketEvaluation(evaluation, text);
 
-        final List<IntentEvaluation> intentEvaluations = evaluation.getIntentEvaluations();
-        IntentEvaluation bestIntentEvaluation = null;
-        for (IntentEvaluation intentEvaluation : intentEvaluations) {
-            if (bestIntentEvaluation == null) {
-                bestIntentEvaluation = intentEvaluation;
-            } else {
-                if (intentEvaluation.getProbability() > bestIntentEvaluation.getProbability()) {
-                    bestIntentEvaluation = intentEvaluation;
-                }
-            }
-        }
-
-        NameEvaluation bestTTCNameEvaluation = null;
-        NameEvaluation bestTVANameEvaluation = null;
-        NameEvaluation bestDateNameEvaluation = null;
-        for (NameEvaluation nameEvaluation : evaluation.getNameEvaluations()) {
-            if (nameEvaluation.getType().equals("TTC")) {
-                if (bestTTCNameEvaluation == null) {
-                    bestTTCNameEvaluation = nameEvaluation;
-                } else {
-                    if (nameEvaluation.getProbability() > bestTTCNameEvaluation.getProbability()) {
-                        bestTTCNameEvaluation = nameEvaluation;
-                    }
-                }
-            }
-            if (nameEvaluation.getType().equals("TVA")) {
-                if (bestTVANameEvaluation == null) {
-                    bestTVANameEvaluation = nameEvaluation;
-                } else {
-                    if (nameEvaluation.getProbability() > bestTVANameEvaluation.getProbability()) {
-                        bestTVANameEvaluation = nameEvaluation;
-                    }
-                }
-            }
-            if (nameEvaluation.getType().equals("date")) {
-                if (bestDateNameEvaluation == null) {
-                    bestDateNameEvaluation = nameEvaluation;
-                } else {
-                    if (nameEvaluation.getProbability() > bestDateNameEvaluation.getProbability()) {
-                        bestDateNameEvaluation = nameEvaluation;
-                    }
-                }
-            }
-        }
-
-
-        System.out.println("Type:" + bestIntentEvaluation.getOutcome());
-        System.out.println("TTC:" + text.substring(bestTTCNameEvaluation.getStart(), bestTTCNameEvaluation.getEnd()));
-        System.out.println("TVA:" + text.substring(bestTVANameEvaluation.getStart(), bestTVANameEvaluation.getEnd()));
-        System.out.println("Date:" + text.substring(bestDateNameEvaluation.getStart(), bestDateNameEvaluation.getEnd()));
+        System.out.println(new ObjectMapper().writeValueAsString(ticketEvaluation));
 
     }
 

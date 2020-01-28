@@ -1,106 +1,127 @@
 [
   {
     "intent": "Repas",
-    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "text": "RESTAURANT INDIEN PAKISTANAIS\n31 RUE CHARLES DE GAULLE\n4140 ALFORTVILLE\nTEL : 01 43 75 70 18\nL Z Cvts: 1 Le 05/12/2019\nE t GT C\nM5  MENU MIDI 12,9 ! 42.90\nS MONTANT TTC : 12.90\nTOTAL EURO : 12.90\nDont TVA 10.00% : 1.17\nHERCI DE VOTRE VISITE\nÉT À BIENTOT",
     "names": [
       {
         "role": "date",
-        "start": 122,
-        "end": 132
+        "start": 108,
+        "end": 118
       },
       {
         "role": "TTC",
-        "start": 209,
-        "end": 214
+        "start": 190,
+        "end": 195
       },
       {
         "role": "TVA",
-        "start": 234,
-        "end": 238
+        "start": 214,
+        "end": 218
       }
     ]
   },
   {
     "intent": "Repas",
-    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "text": "RESTAURANT INDIEN PAKISTANAIS\n31 RUE CHARLES DE GAULLE\n4140 ALFORTVILLE\nTEL : 01 43 75 70 18\nL Z Cvts: 1 Le 05/12/2019\nE t GT C\nM5  MENU MIDI 12,9 ! 42.90\nS MONTANT TTC : 12.90\nTOTAL EURO : 12.90\nDont TVA 10.00% : 1.17\nHERCI DE VOTRE VISITE\nÉT À BIENTOT",
     "names": [
       {
         "role": "date",
-        "start": 122,
-        "end": 132
+        "start": 108,
+        "end": 118
       },
       {
         "role": "TTC",
-        "start": 209,
-        "end": 214
+        "start": 190,
+        "end": 195
       },
       {
         "role": "TVA",
-        "start": 234,
-        "end": 238
+        "start": 214,
+        "end": 218
       }
     ]
   },
   {
     "intent": "Repas",
-    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "text": "RESTAURANT INDIEN PAKISTANAIS\n31 RUE CHARLES DE GAULLE\n4140 ALFORTVILLE\nTEL : 01 43 75 70 18\nL Z Cvts: 1 Le 05/12/2019\nE t GT C\nM5  MENU MIDI 12,9 ! 42.90\nS MONTANT TTC : 12.90\nTOTAL EURO : 12.90\nDont TVA 10.00% : 1.17\nHERCI DE VOTRE VISITE\nÉT À BIENTOT",
     "names": [
       {
         "role": "date",
-        "start": 122,
-        "end": 132
+        "start": 108,
+        "end": 118
       },
       {
         "role": "TTC",
-        "start": 209,
-        "end": 214
+        "start": 190,
+        "end": 195
       },
       {
         "role": "TVA",
-        "start": 234,
-        "end": 238
+        "start": 214,
+        "end": 218
       }
     ]
   },
   {
     "intent": "Repas",
-    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "text": "RESTAURANT INDIEN PAKISTANAIS\n31 RUE CHARLES DE GAULLE\n4140 ALFORTVILLE\nTEL : 01 43 75 70 18\nL Z Cvts: 1 Le 05/12/2019\nE t GT C\nM5  MENU MIDI 12,9 ! 42.90\nS MONTANT TTC : 12.90\nTOTAL EURO : 12.90\nDont TVA 10.00% : 1.17\nHERCI DE VOTRE VISITE\nÉT À BIENTOT",
     "names": [
       {
         "role": "date",
-        "start": 122,
-        "end": 132
+        "start": 108,
+        "end": 118
       },
       {
         "role": "TTC",
-        "start": 209,
-        "end": 214
+        "start": 190,
+        "end": 195
       },
       {
         "role": "TVA",
-        "start": 234,
-        "end": 238
+        "start": 214,
+        "end": 218
       }
     ]
   },
   {
     "intent": "Repas",
-    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "text": "RESTAURANT INDIEN PAKISTANAIS\n31 RUE CHARLES DE GAULLE\n4140 ALFORTVILLE\nTEL : 01 43 75 70 18\nL Z Cvts: 1 Le 05/12/2019\nE t GT C\nM5  MENU MIDI 12,9 ! 42.90\nS MONTANT TTC : 12.90\nTOTAL EURO : 12.90\nDont TVA 10.00% : 1.17\nHERCI DE VOTRE VISITE\nÉT À BIENTOT",
     "names": [
       {
         "role": "date",
-        "start": 122,
-        "end": 132
+        "start": 108,
+        "end": 118
       },
       {
         "role": "TTC",
-        "start": 209,
-        "end": 214
+        "start": 190,
+        "end": 195
       },
       {
         "role": "TVA",
-        "start": 234,
-        "end": 238
+        "start": 214,
+        "end": 218
+      }
+    ]
+  },
+  {
+    "intent": "Repas",
+    "text": "RESTAURANT INDIEN PAKISTANAIS\n31 RUE CHARLES DE GAULLE\n4140 ALFORTVILLE\nTEL : 01 43 75 70 18\nL Z Cvts: 1 Le 05/12/2019\nE t GT C\nM5  MENU MIDI 12,9 ! 42.90\nS MONTANT TTC : 12.90\nTOTAL EURO : 12.90\nDont TVA 10.00% : 1.17\nHERCI DE VOTRE VISITE\nÉT À BIENTOT",
+    "names": [
+      {
+        "role": "date",
+        "start": 108,
+        "end": 118
+      },
+      {
+        "role": "TTC",
+        "start": 190,
+        "end": 195
+      },
+      {
+        "role": "TVA",
+        "start": 214,
+        "end": 218
       }
     ]
   }

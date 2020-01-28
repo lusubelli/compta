@@ -7,18 +7,10 @@
     <groupId>fr.usubelli.compta</groupId>
     <artifactId>compta</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
+    <modules>
+        <module>admin-front</module>
+    </modules>
 
     <properties>
         <tess4j>3.2.1</tess4j>
@@ -79,5 +71,18 @@
             <systemPath>${basedir}/src/main/resources/opencv/build/java/x64/opencv_java412.dll</systemPath>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>10</source>
+                    <target>10</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

@@ -38,7 +38,7 @@ class NlpEvaluation {
         if (sentences.size() >= 2) {
             for (QualifiedSentence sentence : sentences) {
                 trainingEvents.add(new NameSample(
-                        SimpleTokenizer.INSTANCE.tokenize(sentence.getText()),
+                        sentence.getText().replaceAll("\n", " ").split(" "),
                         buildSpans(sentence.getText(), sentence.getQualifiedNames()),
                         false));
             }
@@ -59,17 +59,19 @@ class NlpEvaluation {
 
     private Span[] buildSpans(String text, List<QualifiedName> qualifiedNames) {
         final SimpleTokenizer tokenizer = SimpleTokenizer.INSTANCE;
-        final String[] tokenize = tokenizer.tokenize(text);
+        final String[] tokenize = text.replaceAll("\n", " ").split(" ");
         final List<Span> spans = new ArrayList<>();
         for (QualifiedName qualifiedName : qualifiedNames) {
             int start;
             if (qualifiedName.getStart() == 0) {
                 start = 0;
             } else {
-                start = tokenizer.tokenize(text.substring(0, qualifiedName.getStart())).length;
+                start = text.replaceAll("\n", " ").substring(0, qualifiedName.getStart()).split(" ").length;
             }
-            int end = start + tokenizer.tokenize(text.substring(qualifiedName.getStart(), qualifiedName.getEnd())).length;
-            if (start < tokenize.length && end <= tokenize.length) {
+            int end = start + text.replaceAll("\n", " ").substring(qualifiedName.getStart(), qualifiedName.getEnd()).split(" ").length;
+            if (start >= tokenize.length || end > tokenize.length) {
+
+            } else {
                 spans.add(new Span(start, end, qualifiedName.getRole()));
             }
         }
@@ -83,7 +85,7 @@ class NlpEvaluation {
         } else {
             final List<Event> events = new ArrayList<>();
             for (QualifiedSentence sentence : sentences) {
-                events.add(new Event(sentence.getIntent(), SimpleTokenizer.INSTANCE.tokenize(sentence.getText())));
+                events.add(new Event(sentence.getIntent(), sentence.getText().replaceAll("\n", " ").split(" ")));
             }
             final TrainingParameters trainingParameters = new TrainingParameters();
             if (sentences.size() < 1000) {
@@ -108,7 +110,7 @@ class NlpEvaluation {
     private List<NameEvaluation> evaluateNames(String text) {
         final List<NameEvaluation> nameEvaluations = new ArrayList<>();
         if (nameModel != null) {
-            final String[] tokens = SimpleTokenizer.INSTANCE.tokenize(text);
+            final String[] tokens = text.replaceAll("\n", " ").split(" ");
             final Span[] spans = nameModel.find(tokens);
             for (Span span : spans) {
                 nameEvaluations.add(new NameEvaluation(
@@ -141,7 +143,7 @@ class NlpEvaluation {
     }
 
     private List<IntentEvaluation> evaluateIntent(String text) {
-        final double[] prob = intentModel.eval(SimpleTokenizer.INSTANCE.tokenize(text));
+        final double[] prob = intentModel.eval(text.split(" "));
         final List<IntentEvaluation> intentEvaluations = new ArrayList<>();
         for (int i = 0; i < prob.length; i++) {
             intentEvaluations.add(new IntentEvaluation(intentModel.getOutcome(i), prob[i]));
