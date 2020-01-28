@@ -25,26 +25,25 @@ public class BasicExample {
 
     public static void main(String[] args) throws IOException {
 
-
-
-        final String filename = "D:\\workspace\\compta\\src\\main\\resources\\CFXFDZJYYS.jpg";
+        final String directory = "C:\\dev\\workspace\\compta\\src\\main\\resources\\";
+        final String filename = directory + "CFXFDZJYYS.jpg";
         final Mat image = Imgcodecs.imread(filename);
         final Mat imageReworked = new Hull().transform(image, 57, 2);
         DisplayUtilities.display((BufferedImage) HighGui.toBufferedImage(image));
         DisplayUtilities.display((BufferedImage) HighGui.toBufferedImage(imageReworked));
 
-        String tessDataPath = "D:\\workspace\\compta\\src\\main\\resources\\tessdata";
+        String tessDataPath = directory + "tessdata";
         String language = "fra";
 
 
-        final String s = "D:\\workspace\\compta\\src\\main\\resources\\CFXFDZJYYS_rework.jpg";
+        final String s = directory + "CFXFDZJYYS_rework.jpg";
         ImageIO.write((BufferedImage) HighGui.toBufferedImage(imageReworked), "jpg", new FileOutputStream(s));
         String text = new OCR(tessDataPath, language).ocr(s);
         System.out.println("OCR output:\n" + text);
 
 
-        final List<QualifiedSentence> sentences = new FileDatabaseQualifiedSentences("D:\\workspace\\compta\\src\\main\\resources\\nlp\\qualified.json").all();
-        final FileDatabaseEvaluation fileDatabaseEvaluation = new FileDatabaseEvaluation("D:\\workspace\\compta\\src\\main\\resources\\nlp\\evaluations");
+        final List<QualifiedSentence> sentences = new FileDatabaseQualifiedSentences(directory + "nlp\\qualified.json").all();
+        final FileDatabaseEvaluation fileDatabaseEvaluation = new FileDatabaseEvaluation(directory + "nlp\\evaluations");
         final Evaluation evaluation = new NlpEvaluation(sentences, Locale.FRENCH).evaluate(text);
         fileDatabaseEvaluation.save((BufferedImage) HighGui.toBufferedImage(imageReworked), evaluation);
 

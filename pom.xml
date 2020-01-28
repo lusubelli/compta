@@ -63,6 +63,21 @@
             <artifactId>opennlp-tools</artifactId>
             <version>${opennlp}</version>
         </dependency>
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>opencv</artifactId>
+            <version>4.1.2</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/resources/opencv/build/java/opencv-412.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>opencv</artifactId>
+            <version>4.1.2</version>
+            <scope>runtime</scope>
+            <type>dll</type>
+            <systemPath>${basedir}/src/main/resources/opencv/build/java/x64/opencv_java412.dll</systemPath>
+        </dependency>
     </dependencies>
 
 </project>
