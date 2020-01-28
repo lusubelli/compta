@@ -1,0 +1,107 @@
+[
+  {
+    "intent": "Repas",
+    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "names": [
+      {
+        "role": "date",
+        "start": 122,
+        "end": 132
+      },
+      {
+        "role": "TTC",
+        "start": 209,
+        "end": 214
+      },
+      {
+        "role": "TVA",
+        "start": 234,
+        "end": 238
+      }
+    ]
+  },
+  {
+    "intent": "Repas",
+    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "names": [
+      {
+        "role": "date",
+        "start": 122,
+        "end": 132
+      },
+      {
+        "role": "TTC",
+        "start": 209,
+        "end": 214
+      },
+      {
+        "role": "TVA",
+        "start": 234,
+        "end": 238
+      }
+    ]
+  },
+  {
+    "intent": "Repas",
+    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "names": [
+      {
+        "role": "date",
+        "start": 122,
+        "end": 132
+      },
+      {
+        "role": "TTC",
+        "start": 209,
+        "end": 214
+      },
+      {
+        "role": "TVA",
+        "start": 234,
+        "end": 238
+      }
+    ]
+  },
+  {
+    "intent": "Repas",
+    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "names": [
+      {
+        "role": "date",
+        "start": 122,
+        "end": 132
+      },
+      {
+        "role": "TTC",
+        "start": 209,
+        "end": 214
+      },
+      {
+        "role": "TVA",
+        "start": 234,
+        "end": 238
+      }
+    ]
+  },
+  {
+    "intent": "Repas",
+    "text": "ur\nRESTAURANT TNOIEN PAKISTANAES\n31 RUE CHARLES DE GAULLE:\n94140 ALFORTVILLE\nTEL : 01 43 75 70 18\nTbl: Z Cvts: 1 Le 05/12/2019\nk\n5 53 E L\nM5  MENU MIDI 12.9 1 12.80\nE MONTANT TTC 12.80\nTOTAL EURO : 12.90\nDont TVA 10,00X ! 1.17\nMERCI DE VOTRE VISITE\nET À BIENTOT",
+    "names": [
+      {
+        "role": "date",
+        "start": 122,
+        "end": 132
+      },
+      {
+        "role": "TTC",
+        "start": 209,
+        "end": 214
+      },
+      {
+        "role": "TVA",
+        "start": 234,
+        "end": 238
+      }
+    ]
+  }
+]

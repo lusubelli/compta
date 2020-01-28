@@ -1,0 +1,28 @@
+{
+  "intentEvaluations": [
+    {
+      "outcome": "Repas",
+      "probability": 1.0
+    }
+  ],
+  "nameEvaluations": [
+    {
+      "type": "date",
+      "start": 129,
+      "end": 140,
+      "probability": 0.2979160652977918
+    },
+    {
+      "type": "TTC",
+      "start": 224,
+      "end": 230,
+      "probability": 0.28793384935303656
+    },
+    {
+      "type": "TVA",
+      "start": 256,
+      "end": 268,
+      "probability": 0.30031552629984426
+    }
+  ]
+}

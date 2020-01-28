@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b46cdba1-2a3e-4fe2-8406-e039cd84d347" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/opencv/README.md.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/opencv/build/java/opencv-412.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/opencv/build/java/x64/opencv_java412.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/opencv/build/java/x86/opencv_java412.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/LICENSE_FFMPEG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/CMakeFiles/3.16.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/CMakeFiles/3.16.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/CMakeFiles/3.16.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/OpenCVConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/OpenCVConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/bin/opencv_videoio_ffmpeg412.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/bin/opencv_videoio_ffmpeg412_64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_eye.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_eye_tree_eyeglasses.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_frontalcatface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_frontalcatface_extended.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_frontalface_alt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_frontalface_alt2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_frontalface_alt_tree.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_frontalface_default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_fullbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_lefteye_2splits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_licence_plate_rus_16stages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_lowerbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_profileface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_righteye_2splits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_russian_plate_number.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_smile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/haarcascades/haarcascade_upperbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/lbpcascades/lbpcascade_frontalcatface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/lbpcascades/lbpcascade_frontalface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/lbpcascades/lbpcascade_frontalface_improved.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/lbpcascades/lbpcascade_profileface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/lbpcascades/lbpcascade_silverware.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/SoftFloat-COPYING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ade-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ffmpeg-license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ffmpeg-readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ippicv-EULA.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ippicv-readme.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ippiw-EULA.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ippiw-support.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ippiw-third-party-programs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ittnotify-LICENSE.BSD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/ittnotify-LICENSE.GPL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/jasper-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/jasper-README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/jasper-copyright" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/libjpeg-turbo-LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/libjpeg-turbo-README.ijg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/libjpeg-turbo-README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/libpng-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/libpng-README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/libtiff-COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/opencl-headers-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/openexr-AUTHORS.ilmbase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/openexr-AUTHORS.openexr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/openexr-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/protobuf-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/protobuf-README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/quirc-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/etc/licenses/zlib-README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/calib3d.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/calib3d/calib3d.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/calib3d/calib3d_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/affine.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/async.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/base.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/bindings_utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/bufferpool.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/check.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/core_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda.inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/block.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/border_interpolate.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/color.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/common.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/datamov_utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/detail/color_detail.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/detail/reduce.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/detail/reduce_key_val.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/detail/transform_detail.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/detail/type_traits_detail.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/detail/vec_distance_detail.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/dynamic_smem.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/emulation.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/filters.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/funcattrib.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/functional.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/limits.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/reduce.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/saturate_cast.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/scan.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/simd_functions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/transform.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/type_traits.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/utility.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/vec_distance.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/vec_math.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/vec_traits.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/warp.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/warp_reduce.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda/warp_shuffle.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda_stream_accessor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cuda_types.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cv_cpu_dispatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cv_cpu_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cvdef.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cvstd.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cvstd.inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/cvstd_wrapper.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/detail/async_promise.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/detail/exception_ptr.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/directx.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/eigen.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/fast_math.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/hal.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_avx.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_avx512.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_cpp.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_forward.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_msa.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_neon.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_sse.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_sse_em.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_vsx.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/intrin_wasm.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/hal/msa_macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/mat.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/mat.inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/matx.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/neon_utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/ocl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/ocl_genbase.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/ocl_defs.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/opencl_info.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/opencl_svm.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_clamdblas.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_clamdfft.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_gl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_svm_20.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/opengl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/operations.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/optim.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/ovx.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/persistence.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/saturate.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/simd_intrinsics.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/softfloat.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/sse_utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/traits.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/types.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/types_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/utility.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/utils/allocator_stats.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/utils/allocator_stats.impl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/utils/filesystem.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/utils/logger.defines.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/utils/logger.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/utils/logtag.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/utils/trace.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/va_intel.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/version.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/core/vsx_utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/cvconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/all_layers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/dict.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/dnn.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/dnn.inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/layer.details.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/layer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/shape_utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/utils/inference_engine.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/dnn/version.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/features2d.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/features2d/features2d.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/features2d/hal/interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/all_indices.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/allocator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/any.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/autotuned_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/composite_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/defines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/dist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/dummy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/dynamic_bitset.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/flann.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/flann_base.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/general.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/ground_truth.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/hdf5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/heap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/hierarchical_clustering_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/index_testing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/kdtree_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/kdtree_single_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/kmeans_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/linear_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/logger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/lsh_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/lsh_table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/miniflann.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/nn_index.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/object_factory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/params.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/result_set.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/sampling.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/saving.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/simplex_downhill.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/flann/timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/cpu/core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/cpu/gcpukernel.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/cpu/imgproc.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/fluid/core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/fluid/gfluidbuffer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/fluid/gfluidkernel.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/fluid/imgproc.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/garg.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/garray.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gasync_context.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gcall.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gcommon.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gcompiled.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gcompiled_async.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gcompoundkernel.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gcomputation.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gcomputation_async.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gkernel.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gmat.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gmetaarg.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gproto.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gpu/core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gpu/ggpukernel.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gpu/imgproc.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gscalar.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gtransform.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gtype_traits.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/gtyped.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/imgproc.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/infer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/infer/ie.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/ocl/core.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/ocl/goclkernel.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/ocl/imgproc.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/opencv_includes.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/operators.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/own/assert.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/own/convert.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/own/cvdefs.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/own/exports.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/own/mat.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/own/saturate.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/own/scalar.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/own/types.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/render.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/util/any.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/util/compiler_hints.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/util/optional.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/util/throw.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/util/util.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/gapi/util/variant.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/highgui.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/highgui/highgui.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/highgui/highgui_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgcodecs.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgcodecs/imgcodecs.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgcodecs/imgcodecs_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgcodecs/ios.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgcodecs/legacy/constants_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgproc.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgproc/detail/gcgraph.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgproc/hal/hal.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgproc/hal/interface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgproc/imgproc.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgproc/imgproc_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/imgproc/types_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/ml.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/ml/ml.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/ml/ml.inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/objdetect.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/objdetect/detection_based_tracker.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/objdetect/objdetect.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/opencv.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/opencv_modules.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/photo.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/photo/cuda.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/photo/legacy/constants_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/photo/photo.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/autocalib.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/blenders.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/camera.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/exposure_compensate.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/matchers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/motion_estimators.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/seam_finders.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/timelapsers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/util.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/util_inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/warpers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/detail/warpers_inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/stitching/warpers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/video.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/video/background_segm.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/video/legacy/constants_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/video/tracking.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/video/video.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/videoio.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/videoio/cap_ios.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/videoio/legacy/constants_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/videoio/registry.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/videoio/videoio.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/videoio/videoio_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/include/opencv2/world.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/config-2.7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/config-3.5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/config-3.6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/config-3.7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/load_config_py2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/load_config_py3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/python-2.7/cv2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/python-3.5/cv2.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/python-3.6/cv2.cp36-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/python/cv2/python-3.7/cv2.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/setup_vars_opencv4.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_annotation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_interactive-calibration.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_version.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_version_win32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_videoio_ffmpeg412_64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_visualisation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_world412.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_world412.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_world412d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/bin/opencv_world412d.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/lib/OpenCVConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/lib/OpenCVConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/lib/OpenCVModules-debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/lib/OpenCVModules-release.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/lib/OpenCVModules.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/lib/opencv_world412.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc14/lib/opencv_world412d.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_annotation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_interactive-calibration.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_version.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_version_win32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_videoio_ffmpeg412_64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_visualisation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_world412.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_world412.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_world412d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/bin/opencv_world412d.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/lib/OpenCVConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/lib/OpenCVConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/lib/OpenCVModules.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/lib/opencv_world412.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/opencv/build/x64/vc15/lib/opencv_world412d.lib" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/BasicExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/qualified.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Imgproc.blur(srcGray, srcGray, new Size(3, 3));</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/EdgeFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/CannyEdgeDetector2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/CannyEdgeDetector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/SimpleOCR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/ScaleImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/CannyDetectorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/GrayScale.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Gaussian.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/FindContours.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/ScanedImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/ErodeAndDilate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Binarisation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Crop.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/Classification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/IntentClassification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/IntentEvaluation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/NameClassification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/NameEvaluation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/NlpEvaluation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/Evaluation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/QualifiedName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/QualifiedSentence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/NlpClassifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/NlpEvaluation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/FileDatabaseQualifiedSentences.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/nlp/Evaluation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/nlp/qualified.json" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/nlp/QualifiedSentence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/nlp/QualifiedName.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/nlp/evaluation.json" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/FileDatabaseEvaluation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/nlp/evaluations/23e526ed-696b-470c-aefd-e7b4b175c362/data.json" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/OCR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Deskew.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/SimpleSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Transform.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/nlp/evaluations/e060568a-c88f-4edb-9fb6-f1c1140c41df/data.json" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/BasicExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Hull.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="compta" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="compta" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="compta" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1758" />
+    <option name="y" value="32" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="compta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="compta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/sdk/android" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\compta\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.usubelli.compta" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\compta\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BasicExample">
+    <configuration name="BasicExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.usubelli.compta.BasicExample" />
+      <module name="compta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.usubelli.compta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.usubelli.compta.Hull" />
+      <module name="compta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.usubelli.compta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScanedImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.usubelli.compta.ScanedImage" />
+      <module name="compta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.usubelli.compta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.usubelli.compta.SimpleSample" />
+      <module name="compta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.usubelli.compta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Transform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.usubelli.compta.Transform" />
+      <module name="compta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.usubelli.compta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BasicExample" />
+        <item itemvalue="Application.Hull" />
+        <item itemvalue="Application.Transform" />
+        <item itemvalue="Application.SimpleSample" />
+        <item itemvalue="Application.ScanedImage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b46cdba1-2a3e-4fe2-8406-e039cd84d347" name="Default Changelist" comment="" />
+      <created>1579810904219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579810904219</updated>
+      <workItem from="1579810909319" duration="5265000" />
+      <workItem from="1579854161989" duration="64724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69989000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-2" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="RNConsole" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/BasicExample.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="bestIntentEvaluation" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>text.substring(bestTVANameEvaluation.getStart(), 254)
+/*
+
+
+ */</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>text.substring(bestTVANameEvaluation.getStart(), bestTVANameEvaluation.getEnd())
+/*
+
+
+ */</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>text.substring(246, 258)
+/*
+
+text.substring(bestTVANameEvaluation.getStart(), bestTVANameEvaluation.getEnd())
+ */</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bestTVANameEvaluation.getStart()
+bestTVANameEvaluation.getEnd()
+/*
+text.substring(246, 254)
+text.substring(bestTVANameEvaluation.getStart(), bestTVANameEvaluation.getEnd())
+ */</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bestTVANameEvaluation.getStart()
+/*
+text.substring(246, 254)
+text.substring(bestTVANameEvaluation.getStart(), bestTVANameEvaluation.getEnd())
+ */</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>text.substring(bestTVANameEvaluation.getStart(), bestTVANameEvaluation.getEnd())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>text.substring(246, 254)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>text.substring(bestTVANameEvaluation.getStart(), bestTVANameEvaluation.getEnd())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/sdk/jdk-12.0.1/lib/src.zip!/java.desktop/javax/imageio/stream/ImageOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/sdk/jdk-12.0.1/lib/src.zip!/java.desktop/javax/imageio/stream/ImageOutputStreamImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/img_20191114_105755.409.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/EdgeFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/CannyDetectorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2519#2772#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#3676#3815#0" expanded="true" />
+            <element signature="e#3814#3815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/GrayScale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Gaussian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/ScaleImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/ErodeAndDilate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/tesseract/4.1.0-1.5.2/tesseract-4.1.0-1.5.2.jar!/org/bytedeco/tesseract/TessBaseAPI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/leptonica/1.78.0-1.5.2/leptonica-1.78.0-1.5.2.jar!/org/bytedeco/leptonica/global/lept.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="10381" column="29" selection-start-line="10381" selection-start-column="29" selection-end-line="10381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/ScanedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="81" column="79" selection-start-line="81" selection-start-column="79" selection-end-line="82" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/FindContours.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/nlp/NameEvaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/nlp/IntentEvaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/FileDatabaseQualifiedSentences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="120" selection-start-line="21" selection-start-column="120" selection-end-line="21" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/nlp/Evaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CRODYOSSJP.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluations/23e526ed-696b-470c-aefd-e7b4b175c362/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluations/d4245d24-cf01-4cb0-94af-c9966368cfbf/image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluations/d4245d24-cf01-4cb0-94af-c9966368cfbf/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/nlp/QualifiedName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/domain/nlp/QualifiedSentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/opencv/build/java/opencv-412.jar!/org/opencv/imgcodecs/Imgcodecs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/OCR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/SimpleSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-636">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1167#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Deskew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="19" column="103" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Crop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluations/e060568a-c88f-4edb-9fb6-f1c1140c41df/image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluations/133395de-f7ee-4550-9db2-ee78cc053c31/image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluations/829f2ab0-b962-4bd7-8e7d-ca1c77156ed3/image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluations/23e526ed-696b-470c-aefd-e7b4b175c362/image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/evaluations/e060568a-c88f-4edb-9fb6-f1c1140c41df/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/NlpEvaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/1_77OmClHlclhqQ9vGoPcd4w.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CFXFDZJYYS_rework.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CRODYOSSJP_rework.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DUKUZUBVPE.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/EGTMRZZKCH_rework.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/out.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/EGTMRZZKCH.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/output.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/perspective-deskew-left.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CFXFDZJYYS.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/Hull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6054#6055#0" expanded="true" />
+            <element signature="e#6096#6097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/FileDatabaseEvaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/usubelli/compta/BasicExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlp/qualified.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>compta</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
