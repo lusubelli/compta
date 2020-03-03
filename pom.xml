@@ -6,10 +6,14 @@
 
     <groupId>fr.usubelli.compta</groupId>
     <artifactId>compta</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>admin-front</module>
+        <module>organisation</module>
+        <module>backend</module>
+        <module>frontend</module>
+        <module>user</module>
     </modules>
 
     <properties>
