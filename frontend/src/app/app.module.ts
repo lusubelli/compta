@@ -13,7 +13,7 @@ import {RoleGuardService} from "./auth/role-guard.service";
 import {AuthService} from "./auth/auth.service";
 import {JwtHelperService, JwtModule} from "@auth0/angular-jwt";
 import {FormBuilder, FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {SigninService} from "./public/signin/signin.service";
+import {CookieService} from "ngx-cookie-service";
 
 export function tokenGetter() {
   return localStorage.getItem("access_token");
@@ -41,7 +41,7 @@ export function tokenGetter() {
     })
   ],
   providers: [
-    SigninService,
+    CookieService,
     AuthGuardService,
     RoleGuardService,
     AuthService,

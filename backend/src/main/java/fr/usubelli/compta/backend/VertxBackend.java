@@ -12,6 +12,8 @@ import fr.usubelli.compta.backend.port.NetOrganisationGateway;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;
 import io.vertx.core.VertxOptions;
+import io.vertx.core.http.Cookie;
+import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.http.HttpMethod;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.BodyHandler;
@@ -27,20 +29,28 @@ public class VertxBackend extends AbstractVerticle {
         final Vertx vertx = Vertx.vertx(new VertxOptions());
         vertx.deployVerticle(this);
         final Router router = Router.router(vertx);
-        router.route().handler(CorsHandler.create("*")
+        /*router.route().handler(CorsHandler.create("*")
                 .allowedMethod(HttpMethod.GET)
                 .allowedHeader("Access-Control-Request-Method")
                 .allowedHeader("Access-Control-Allow-Credentials")
                 .allowedHeader("Access-Control-Allow-Origin")
                 .allowedHeader("Access-Control-Allow-Headers")
-                .allowedHeader("Content-Type"));
+                .allowedHeader("Content-Type"));*/
         router.route().handler(BodyHandler.create());
-        router.post("/signin")
+        router.post("/backend/signin")
                 .produces("application/json")
                 .handler(rc -> {
+                    Cookie cookie = Cookie.cookie("SESSIONID", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c");
+                    String path = "/";
+                    cookie.setPath(path);
+                    cookie.setMaxAge(10000000);
+                    rc.addCookie(cookie);
+                    rc.response().setChunked(true);
+                    rc.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
+                    rc.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_METHODS, "GET");
                     rc.response().setStatusCode(200).end();
                 });
-        router.post("/create-account")
+        router.post("/backend/create-account")
                 .produces("application/json")
                 .handler(rc -> {
                     try {
@@ -52,7 +62,7 @@ public class VertxBackend extends AbstractVerticle {
                         rc.response().setStatusCode(500).end();
                     }
                 });
-        router.post("/create-customer")
+        router.post("/backend/create-customer")
                 .produces("application/json")
                 .handler(rc -> {
                     try {
