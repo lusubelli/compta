@@ -33,7 +33,7 @@ export class SigninComponent implements OnInit {
     }
     this.authService.signin(JSON.stringify(this.signinForm.value, null, 4))
       .subscribe(response => {
-        localStorage.setItem('token', this.cookieService.get('SESSIONID'));
+        localStorage.setItem('xsrfToken', response.access_token);
         this.router.navigate(['account']);
       });
   }
