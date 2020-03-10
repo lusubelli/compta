@@ -1,5 +1,4 @@
 import {Injectable} from '@angular/core';
-import {JwtHelperService} from '@auth0/angular-jwt';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 
 interface AccessToken {
@@ -9,23 +8,22 @@ interface AccessToken {
 @Injectable()
 export class AuthService {
 
-  constructor(public jwtHelper: JwtHelperService, private http: HttpClient) {
+  constructor(private http: HttpClient) {
   }
 
   signin(login: any) {
-    return this.http.post<AccessToken>('http://localhost:8080/backend/signin', login/*, { withCredentials: true }*/);
+    return this.http.post<AccessToken>('/backend/signin', login, /*{ withCredentials: true }*/);
   }
 
   isAuthenticated(): boolean {
     const token = localStorage.getItem('xsrfToken');
-    return !this.jwtHelper.isTokenExpired(token);
+    return token !== undefined;
   }
 
   protected() {
     const token = localStorage.getItem('xsrfToken');
-    console.log(token);
     const headers = new HttpHeaders({'x-xsrf-token':token});
-    return this.http.get('http://localhost:8080/backend/protected', { headers, withCredentials: true });
+    return this.http.get('/backend/protected', { headers, withCredentials: true });
   }
 
 }
