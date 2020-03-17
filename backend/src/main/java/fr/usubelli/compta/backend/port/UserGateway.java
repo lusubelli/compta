@@ -1,7 +1,7 @@
 package fr.usubelli.compta.backend.port;
 
 import fr.usubelli.compta.backend.dto.User;
-import fr.usubelli.compta.backend.usecase.UserAlreadyExistsException;
+import fr.usubelli.compta.backend.exception.UserAlreadyExistsException;
 
 public interface UserGateway {
 

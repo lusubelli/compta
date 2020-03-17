@@ -1,38 +1,39 @@
 package fr.usubelli.compta.backend.usecase;
 
 import fr.usubelli.compta.backend.dto.Customer;
-import fr.usubelli.compta.backend.dto.Organisation;
-import fr.usubelli.compta.backend.port.OrganisationGateway;
+import fr.usubelli.compta.backend.dto.Organization;
+import fr.usubelli.compta.backend.exception.OrganisationAlreadyExistsException;
+import fr.usubelli.compta.backend.port.OrganizationGateway;
 
 import java.util.List;
 
 public class CreateCustomer {
 
-    private final OrganisationGateway organisationGateway;
+    private final OrganizationGateway organizationGateway;
 
-    public CreateCustomer(OrganisationGateway organisationGateway) {
-        this.organisationGateway = organisationGateway;
+    public CreateCustomer(OrganizationGateway organizationGateway) {
+        this.organizationGateway = organizationGateway;
     }
 
-    public Customer createCustomer(String siren, Organisation customerOrganisation, String billingContactEmail) {
+    public Customer createCustomer(String siren, Organization customerOrganization, String billingContactEmail) {
 
         try {
-            organisationGateway.createOrganisation(customerOrganisation);
+            organizationGateway.createOrganisation(customerOrganization);
         } catch (OrganisationAlreadyExistsException e) {}
 
-        final Organisation ownOrganisation = organisationGateway.findOrganisation(siren);
+        final Organization ownOrganization = organizationGateway.findOrganisation(siren);
 
-        final List<Customer> customers = ownOrganisation.getCustomers();
-        final Customer customer = new Customer(customerOrganisation.getSiren(), billingContactEmail);
+        final List<Customer> customers = ownOrganization.getCustomers();
+        final Customer customer = new Customer(customerOrganization.getSiren(), billingContactEmail);
         customers.add(customer);
 
-        organisationGateway.updateOrganisation(new Organisation(
-                ownOrganisation.getName(),
-                ownOrganisation.getAddress(),
-                ownOrganisation.getZipcode(),
-                ownOrganisation.getTown(),
-                ownOrganisation.getSiren(),
-                ownOrganisation.getTva(),
+        organizationGateway.updateOrganisation(new Organization(
+                ownOrganization.getName(),
+                ownOrganization.getAddress(),
+                ownOrganization.getZipcode(),
+                ownOrganization.getTown(),
+                ownOrganization.getSiren(),
+                ownOrganization.getTva(),
                 customers));
 
         return customer;

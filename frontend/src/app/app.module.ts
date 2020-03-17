@@ -7,7 +7,7 @@ import {SigninComponent} from "./public/signin/signin.component";
 import {SignupComponent} from "./public/signup/signup.component";
 import {AccountComponent} from "./account/account.component";
 import {AppRoutingModule} from "./app-routing.module";
-import {HttpClientModule} from "@angular/common/http";
+import {HttpClientModule, HttpClientXsrfModule} from "@angular/common/http";
 import {AuthGuardService} from "./auth/auth-guard.service";
 import {RoleGuardService} from "./auth/role-guard.service";
 import {AuthService} from "./auth/auth.service";
@@ -33,6 +33,10 @@ export function tokenGetter() {
     ReactiveFormsModule,
     BrowserModule,
     HttpClientModule,
+    HttpClientXsrfModule.withOptions({
+      cookieName: 'XSRF-TOKEN',
+      headerName: 'X-XSRF-TOKEN',
+    }),
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,

@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-public class Organisation {
+public class Organization {
 
     private final String name;
     private final String address;
@@ -16,7 +16,7 @@ public class Organisation {
     private final List<Customer> customers;
 
     @JsonCreator
-    public Organisation(
+    public Organization(
             @JsonProperty("name") String name,
             @JsonProperty("address") String address,
             @JsonProperty("zipcode") String zipcode,

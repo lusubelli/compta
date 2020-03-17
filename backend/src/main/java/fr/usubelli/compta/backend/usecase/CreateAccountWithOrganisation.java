@@ -1,10 +1,12 @@
 package fr.usubelli.compta.backend.usecase;
 
 import fr.usubelli.compta.backend.dto.CreateAccountWithOrganisationRequest;
-import fr.usubelli.compta.backend.dto.Organisation;
+import fr.usubelli.compta.backend.dto.Organization;
 import fr.usubelli.compta.backend.dto.OrganisationRights;
 import fr.usubelli.compta.backend.dto.User;
-import fr.usubelli.compta.backend.port.OrganisationGateway;
+import fr.usubelli.compta.backend.exception.OrganisationAlreadyExistsException;
+import fr.usubelli.compta.backend.exception.UserAlreadyExistsException;
+import fr.usubelli.compta.backend.port.OrganizationGateway;
 import fr.usubelli.compta.backend.port.UserGateway;
 
 import java.util.Arrays;
@@ -12,36 +14,32 @@ import java.util.Arrays;
 public class CreateAccountWithOrganisation {
 
     private final UserGateway userGateway;
-    private final OrganisationGateway organisationGateway;
+    private final OrganizationGateway organizationGateway;
 
-    public CreateAccountWithOrganisation(UserGateway userGateway, OrganisationGateway organisationGateway) {
+    public CreateAccountWithOrganisation(UserGateway userGateway, OrganizationGateway organizationGateway) {
         this.userGateway = userGateway;
-        this.organisationGateway = organisationGateway;
+        this.organizationGateway = organizationGateway;
     }
 
     public CreateAccountWithOrganisationRequest createAccountWithOrganisation(CreateAccountWithOrganisationRequest request)
             throws UserAlreadyExistsException, OrganisationAlreadyExistsException {
 
-        OrganisationRights rights = new OrganisationRights(request.getOrganisation().getSiren(), Arrays.asList(
+        OrganisationRights rights = new OrganisationRights(request.getOrganization().getSiren(), Arrays.asList(
                 OrganisationRights.Right.UPDATE_ORGANISATION,
                 OrganisationRights.Right.REDUCE_RIGHT,
                 OrganisationRights.Right.GRANT_RIGHT));
 
         userGateway.createUser(new User(
-                request.getEmail(),
-                request.getPassword(),
+                request.getAccount().getEmail(),
+                request.getAccount().getPassword(),
                 rights,
                 User.UserState.CREATED));
 
-        Organisation organisation = organisationGateway.createOrganisation(request.getOrganisation());
+        Organization organization = organizationGateway.createOrganisation(request.getOrganization());
 
         return new CreateAccountWithOrganisationRequest(
-                request.getEmail(),
-                request.getPassword(),
-                request.getFirstname(),
-                request.getLastname(),
-                request.getRole(),
-                organisation);
+                request.getAccount(),
+                organization);
     }
 
 }

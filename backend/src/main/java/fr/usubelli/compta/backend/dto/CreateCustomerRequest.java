@@ -6,16 +6,16 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class CreateCustomerRequest {
 
     private final String siren;
-    private final Organisation organisation;
+    private final Organization organization;
     private final String billingContactEmail;
 
     @JsonCreator
     public CreateCustomerRequest(
             @JsonProperty("siren") String siren,
-            @JsonProperty("organisation") Organisation organisation,
+            @JsonProperty("organization") Organization organization,
             @JsonProperty("billingContactEmail") String billingContactEmail) {
         this.siren = siren;
-        this.organisation = organisation;
+        this.organization = organization;
         this.billingContactEmail = billingContactEmail;
     }
 
@@ -23,8 +23,8 @@ public class CreateCustomerRequest {
         return siren;
     }
 
-    public Organisation getOrganisation() {
-        return organisation;
+    public Organization getOrganization() {
+        return organization;
     }
 
     public String getBillingContactEmail() {

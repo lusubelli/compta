@@ -12,7 +12,7 @@ export class AuthService {
   }
 
   signin(login: any) {
-    return this.http.post<AccessToken>('/backend/signin', login, /*{ withCredentials: true }*/);
+    return this.http.post<AccessToken>('/backend/api/v1/signin', login);
   }
 
   isAuthenticated(): boolean {
@@ -20,10 +20,15 @@ export class AuthService {
     return token !== undefined;
   }
 
-  protected() {
+  account() {
     const token = localStorage.getItem('xsrfToken');
     const headers = new HttpHeaders({'x-xsrf-token':token});
-    return this.http.get('/backend/protected', { headers, withCredentials: true });
+    return this.http.get('/backend/api/v1/secured/account', { headers, withCredentials: true });
   }
 
+  signout() {
+    const token = localStorage.getItem('xsrfToken');
+    const headers = new HttpHeaders({'x-xsrf-token':token});
+    return this.http.get('/backend/api/v1/secured/signout', { headers, withCredentials: true });
+  }
 }
